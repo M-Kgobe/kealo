@@ -13,7 +13,7 @@ export default function Footer() {
 				<div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
 					<div>
 						<img
-							src="/kealo-logo.png"
+							src={`${import.meta.env.BASE_URL}kealo-logo.png`}
 							alt="Kealo HR Solutions logo"
 							className="h-12 md:h-14 w-auto object-contain"
 						/>
@@ -67,10 +67,11 @@ export default function Footer() {
 								0712669726
 							</a>
 						</p>
-					<p className="text-sm text-gray-300 mt-2">
+						<p className="text-sm text-gray-300 mt-2">
 							<FontAwesomeIcon
 								icon={faLocationDot}
-							className="text-orange-500 text-xl" />
+								className="text-orange-500 text-xl"
+							/>
 							<br />
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17094.957010287828!2d28.175812290242344!3d-25.745051886848668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95620d78f2044b%3A0x85ebfaa6157db035!2sSediba%20House!5e0!3m2!1sen!2sza!4v1765690750447!5m2!1sen!2sza"
