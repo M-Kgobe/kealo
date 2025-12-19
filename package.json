@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "1.0.0",
 	"type": "module",
-	"homepage": "https://M-Kgobe.github.io/kealo-hr-website",
+	"homepage": "https://M-Kgobe.github.io/kealo",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
